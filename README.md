@@ -10,6 +10,10 @@ The context is
 * The multistep process mentioned above must be successfully completed at least four times. This number is arbitrary and you should choose something that fits well with how many times the user is likely to complete a process in your app.
 * Finally, the user must pause on the "Process Completed" scene for a few seconds. This requirement limits the possibility of the prompt interrupting the user if they are about to move to a different task in your application straight away.
 
+
+Code plan is UI -> request to viewmodel -> viewmodel -> request to service
+Data layer implement all services 
+
 ## UI Layer 
 
 Now ProcessCompletedViewController is clean 
